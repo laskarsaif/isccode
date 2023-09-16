@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+}
+.headline {
+    width: 100%;
+    color: red;
+    background-color: green;
+    font-size: 100px;
+    text-align: center;
+    animation: 8s linear 0s infinite headline
+}
+@keyframes headline{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+    0%{color: red;}
+    10%{color:orange ;}
+    20%{color: yellow;}
+    30%{color: yellowgreen;}
+    40%{color: green;}
+    50%{color: rgb(9, 248, 101);}
+    60%{color: rgb(0, 247, 255);}
+    70%{color: blue;}
+    80%{color: blueviolet;}
+    90%{color: violet;}
+    100%{color: rgb(255, 0, 43);}
+}
+.mouse:hover {
+    color: yellow;
+    background: cyan;
+}
